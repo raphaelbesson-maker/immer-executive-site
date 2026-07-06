@@ -36,6 +36,15 @@ export const PARTNERS_DATA = [
         category: "Chasse de tête & Transition"
     },
     {
+        name: "Faustine des Arcis",
+        role: "Chasse de Tête",
+        initial: "FA",
+        photo: "/team/faustine-des-arcis.png",
+        email: "",
+        linkedin: "https://www.linkedin.com/in/faustinedecertaines/",
+        category: "Chasse de tête & Transition"
+    },
+    {
         name: "Henry Destremau",
         role: "Accompagnement Codir / Comex / Associés",
         initial: "HD",
