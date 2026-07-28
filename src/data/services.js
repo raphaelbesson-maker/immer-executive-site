@@ -8,7 +8,8 @@ export const SERVICES_DATA = [
             { id: 'sparring', label: 'Sparring partnership' },
             { id: 'coaching', label: 'Coaching individuel', contactOnly: true },
             { id: 'conseil-strategique', label: 'Conseil stratégique', contactOnly: true },
-            { id: 'mediation', label: 'Médiation d\'associés' }
+            { id: 'mediation', label: 'Médiation d\'associés' },
+            { id: 'acte3', label: 'ACTE III — La liberté, Pour quoi faire ?' }
         ]
     },
     {
@@ -71,6 +72,16 @@ export const FULL_SERVICES_CONTENT = {
                 situation: 'Deux ou plusieurs associés traversent un désaccord stratégique, financier ou de gouvernance. Les discussions deviennent tendues, les positions se rigidifient, et les équipes commencent à percevoir les divergences. Que le conflit soit ouvert ou diffus, il s\'installe une paralysie décisionnelle.',
                 intervention: 'Mise en place d\'un cadre structuré et neutre permettant à chaque associé d\'exprimer sa lecture de la situation sans escalade. Repositionnement systématique des échanges autour de la personne morale pour éviter le face-à-face : quels sont les intérêts de l\'entreprise ? quelles sont les responsabilités respectives ? quelles solutions permettent de préserver l\'activité et les équipes ? Nous facilitons la clarification des enjeux réels, distinguons les sujets émotionnels des sujets structurants et ouvrons des scénarios alternatifs : écoute mutuelle, ajustement de gouvernance, redéfinition des rôles, sortie organisée si nécessaire.',
                 effet: 'Le face-à-face est désamorcé. La discussion baisse en intensité émotionnelle et se réoriente vers l\'entreprise. Dans certains cas, la relation est stabilisée et clarifiée. Dans d\'autres, une réorganisation ou une séparation est structurée sans rupture destructrice. Dans tous les cas, l\'entreprise est protégée.',
+                partnerContact: { name: 'Henry', email: 'henry.destremau@immer-executive.com' }
+            },
+            {
+                id: 'acte3',
+                title: 'ACTE III — La liberté, Pour quoi faire ?',
+                iconName: 'Sunrise',
+                intro: 'Un parcours individuel conçu pour le dirigeant qui s\'apprête à rendre les clefs. Douze séances entre pairs, pour transformer la fin d\'une vie professionnelle accomplie en un projet de vie choisi, et le lancer. Parce que les trente années qui viennent valent autant que les trente années qui précèdent.',
+                situation: 'Le moment venu de « rendre les clefs », de quitter définitivement un poste de dirigeant, une fausse évidence s\'installe souvent à bas bruit : « ma carrière est derrière moi, ma vie aussi. » Disparaissent d\'un coup les contraintes financières et les responsabilités qui structuraient l\'existence. Reste une liberté réelle que rien n\'a préparé à habiter.',
+                intervention: 'Un parcours structuré, conduit en face-à-face entre pairs. Douze séances de deux heures, une par mois, jalonnent quatre phases : la Préparation (regarder d\'où l\'on vient, reconnaître ce qui s\'achève), l\'Exploration (identifier ses désirs propres, poser les fondations d\'une vie choisie), la Construction (confronter les possibles au réel, composer une vie plurielle, trouver ses pairs), l\'Engagement (transformer ses voies en actes, nommer son legs). Entre les séances, le directeur de parcours reste disponible. Le dialogue se tient entre dirigeants, en confidentialité, au rythme et au lieu convenu directement avec le participant.',
+                effet: 'Au terme des douze mois, le participant peut dire : « J\'ai défini un projet de vie qui m\'anime, et je l\'ai lancé. » Le parcours ne s\'arrête pas sur une intention, mais sur des premières actions engagées : un projet nommé, des pairs identifiés, un legs formulé. La liberté ouverte par la fin de la vie professionnelle est devenue une trajectoire choisie, et déjà en mouvement.',
                 partnerContact: { name: 'Henry', email: 'henry.destremau@immer-executive.com' }
             }
         ]
