@@ -63,6 +63,15 @@ export const PARTNERS_DATA = [
         category: "Accompagnement"
     },
     {
+        name: "Thibaut de Solages",
+        role: "Mentoring de dirigeants · Réalignement stratégique & opérationnel",
+        initial: "TS",
+        photo: "/team/thibaut-de-solages.png",
+        email: "",
+        linkedin: "https://www.linkedin.com/in/thibautdesolages/",
+        category: "Accompagnement"
+    },
+    {
         name: "Hugues Franc",
         role: "Partenariats B2B · Levée de Fonds · M&A",
         initial: "HF",
